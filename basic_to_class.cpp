@@ -14,6 +14,7 @@ void display(){
 };
 int main(){
   int min_from_mid_night =330;
-  time t(min_from_mid_night);
+  Time t= min_from_mid_night;
+  t.display();
 return 0;
 }
